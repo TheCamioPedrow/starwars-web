@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body{
+    background-image:url(imagenes/fondo.jpg)
+}
+
+.logoDec{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.logoInicio{
+    height: 100%;
+    width: 100%;
+    display: inline;
+}
+.decIzq{
+    height: 100%;
+    width: 100%;
+    display: inline;
+}
+
+.decDer{
+    height: 100%;
+    width: 100%;
+    display: inline;
+}
+
+.cabecera__ul{
+    background-color: #464649;
+    margin: 2%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-around;
+}
+
+/* .cabecera__ul__li{
+    display: inline-block;
+    font-size: 25px;
+    margin: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #464649;
+}
+
+.cabecera__ul__li a{
+    text-decoration: none;
+    background-color: #464649;
+} */
+
+/* .textoexplicativo p{
+    color:#ffe81f;
+    font-size: 20px;
+    width: 650px;
+    margin: 20px auto;
+    text-align: justify; 
+}
+
+.referencia {
+    display: block;
+    font-size: 25px;
+    margin: 20px auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #464649;
+    text-align: center;
+}
+
+.principal__ul{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.principal__ul__li{
+    text-decoration: none;
+    background-color: #464649;
+    margin: 15px;
+    text-align: center;
+}
+
+.principal__ul__li h4{
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.index__peliculas {
+    width: 500px;
+}
+
+.index__series {
+    width: 500px;
+}
+
+.index__juegos {
+    width: 500px;
+}
+
+.pie__ul{
+    background-color: #464649;
+    margin: 0px auto;
+    box-shadow: #464649;
+    width: 100%;
+}
+
+.pie__ul__li{
+    display: inline-block;
+    margin: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #464649;
+}
+
+.pie__ul__li a{
+    vertical-align: auto;
+}
+
+.redes__facebook{
+    width: 50px;
+}
+
+.redes__instagram{
+    width: 50px;
+}
+
+.redes__twitter{
+    width: 50px;
+}
+
+.redes__steam{
+    width: 50px;
+}
+
+.redes__contacto{
+    width: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    font-size: 25px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #464649;
+    text-align: center;
+}
+
+.sagaOriginal{
+    margin: 30px;
+    display: block;
+    background-color: #464649;
+    text-align: center;
+}
+
+.sagaOriginal h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.sagaOriginal__peli{
+    display: inline-block;
+}
+
+.sagaOriginal img{
+    padding: 30px;
+    width: 500px;
+    height: 700px;
+}
+
+.spinoff{
+    margin: 30px;
+    display: block;
+    background-color: #464649;
+    text-align: center;
+}
+
+.spinoff h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.spinoff__peli{
+    display: inline-block;
+}
+
+.spinoff img{
+    padding: 30px;
+    width: 500px;
+    height: 700px;
+}
+
+.series{
+    margin: 30px;
+    display: block;
+    background-color: #464649;
+    text-align: center;
+}
+
+.series__li{
+    display: inline-block;
+}
+
+.series img{
+    padding: 30px;
+    width: 500px;
+    height: 700px;
+}
+
+.videojuegos{
+    margin: 30px;
+    display: block;
+    background-color: #464649;
+    text-align: center;
+}
+
+.videojuegos__li{
+    display: inline-block;
+}
+
+.videojuegos img{
+    padding: 30px;
+    width: 500px;
+    height: 700px;
+} */
