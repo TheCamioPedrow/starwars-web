@@ -6,7 +6,8 @@
 }
 
 body{
-    background-image:url(imagenes/fondo.jpg)
+    background-image:url(imagenes/fondo.jpg);
+    font-size: 1.5vw;
 }
 
 .logoDec{
@@ -36,39 +37,42 @@ body{
 .cabecera__ul{
     background-color: #464649;
     margin: 2%;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-/* .cabecera__ul__li{
+.cabecera__ul__li{
     display: inline-block;
-    font-size: 25px;
-    margin: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
+    font-size: 1.5vw;
+    margin: 1%;
     background-color: #464649;
 }
 
 .cabecera__ul__li a{
     text-decoration: none;
     background-color: #464649;
-} */
+}
 
-/* .textoexplicativo p{
+.textoexplicativo{
+    margin: 2% auto;
+    background-color: #4646497a;
+    width: 60%;
+}
+
+.textoexplicativo p{
     color:#ffe81f;
-    font-size: 20px;
-    width: 650px;
-    margin: 20px auto;
-    text-align: justify; 
+    font-size: 1.75vw;
+    width: 90%;
+    padding: 3vw;
+    text-align: justify;
 }
 
 .referencia {
     display: block;
-    font-size: 25px;
-    margin: 20px auto;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    font-size: 2vw;
+    margin: 2% auto;
+    padding-top: 0.75vw;
+    padding-bottom: 0.75vw;
     background-color: #464649;
     text-align: center;
 }
@@ -76,73 +80,79 @@ body{
 .principal__ul{
     display: flex;
     flex-direction: row;
-    align-items: top;
-    justify-content: space-around;
-    margin: 30px;
+    justify-content: space-evenly;
+    margin: 2%;
 }
 
 .principal__ul__li{
     text-decoration: none;
     background-color: #464649;
-    margin: 15px;
+    margin: 1%;
     text-align: center;
 }
 
 .principal__ul__li h4{
-    font-size: 20px;
+    font-size: 1.5vw;
     text-align: center;
-    margin: 5px;
+    margin: 0.5vw;
+}
+
+.principal__ul__li p{
+    text-align: justify;
+    margin: 0.5vw;
 }
 
 .index__peliculas {
-    width: 500px;
+    width: 25vw;
 }
 
 .index__series {
-    width: 500px;
+    width: 25vw;
 }
 
 .index__juegos {
-    width: 500px;
+    width: 25vw;
+}
+
+.piedepagina{
+    position: relative;
+    right: 0px;
+    bottom: 0px;
 }
 
 .pie__ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    justify-content: center;
     background-color: #464649;
-    margin: 0px auto;
-    box-shadow: #464649;
-    width: 100%;
 }
 
 .pie__ul__li{
-    display: inline-block;
-    margin: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin: 1.25vw auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
     background-color: #464649;
 }
 
-.pie__ul__li a{
-    vertical-align: auto;
-}
-
 .redes__facebook{
-    width: 50px;
+    width: 3vw;
 }
 
 .redes__instagram{
-    width: 50px;
+    width: 3vw;
 }
 
 .redes__twitter{
-    width: 50px;
+    width: 3vw;
 }
 
 .redes__steam{
-    width: 50px;
+    width: 3vw;
 }
 
 .redes__contacto{
-    width: 35px;
+    width: 3vw;
 }
 
 a{
@@ -153,16 +163,18 @@ ul{
     list-style: none;
 }
 
+/* A partir de aca son las que no son index */
+
 h1{
-    font-size: 25px;
-    margin: 15px;
-    padding: 10px;
+    font-size:2vw;
+    margin: 2%;
+    padding: 0.75vw;
     background-color: #464649;
     text-align: center;
 }
 
 .sagaOriginal{
-    margin: 30px;
+    margin: 2%;
     display: block;
     background-color: #464649;
     text-align: center;
@@ -170,21 +182,22 @@ h1{
 
 .sagaOriginal h2{
     text-align: center;
-    padding: 15px;
+    padding: 0.5vw;
 }
 
-.sagaOriginal__peli{
-    display: inline-block;
+.sagaOriginal__ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .sagaOriginal img{
-    padding: 30px;
-    width: 500px;
-    height: 700px;
+    padding: 2vw;
+    width: 25vw;
+    height: 35vw;
 }
 
 .spinoff{
-    margin: 30px;
+    margin: 2%;
     display: block;
     background-color: #464649;
     text-align: center;
@@ -192,49 +205,413 @@ h1{
 
 .spinoff h2{
     text-align: center;
-    padding: 15px;
+    padding: 0.5vw;
 }
 
-.spinoff__peli{
-    display: inline-block;
+.spinoff__ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .spinoff img{
-    padding: 30px;
-    width: 500px;
-    height: 700px;
+    padding: 2vw;
+    width: 25vw;
+    height: 35vw;
 }
 
 .series{
-    margin: 30px;
-    display: block;
-    background-color: #464649;
-    text-align: center;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
 }
 
 .series__li{
-    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #464649;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.series img{
-    padding: 30px;
-    width: 500px;
-    height: 700px;
+.series__li__img{
+    padding: 1vw;
+    width: 25vw;
+    height: 15vw;
 }
+
 
 .videojuegos{
-    margin: 30px;
-    display: block;
-    background-color: #464649;
-    text-align: center;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
 }
 
 .videojuegos__li{
-    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #464649;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.videojuegos img{
-    padding: 30px;
-    width: 500px;
-    height: 700px;
-} */
+.videojuegos__li__img{
+    padding: 1vw;
+    width: 25vw;
+    height: 15vw;
+}
+
+.invertido{
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.formulario{
+    margin: 2%;
+    background-color: #464649;
+}
+
+.formulario__nye{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulario__nye__input{
+    display: inline-block;
+    background-color: #2e2e30;
+}
+
+
+.formulario__com{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.formulario__com__input{
+    display: inline-block;
+    background-color: #2e2e30;
+}
+
+.boton{
+    padding: 2%;
+    display: block;
+    text-align: center;
+}
+
+.label{
+    font-size: 1.5vw;
+}
+
+/* MediaQueries */
+
+@media screen and (max-width: 800px){
+    /* Index */
+
+    body{
+        font-size: 3.5vw;
+    }
+
+    .cabecera__ul__li{
+        font-size: 15px;
+    }
+
+    .textoexplicativo{
+        width: 80%;
+    }
+    
+    .textoexplicativo p{
+        margin: 0 auto;
+        font-size: 3.5vw;
+    
+    }
+    .referencia {
+        font-size: 4vw;
+    }
+    
+    .principal__ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 2%;
+    }
+    
+    .principal__ul__li{
+        text-decoration: none;
+        background-color: #464649;
+        margin: 1%;
+        text-align: center;
+    }
+    
+    .principal__ul__li h4{
+        font-size: 4.5vw;
+        margin: 2%;
+    }
+    
+    .principal__ul__li p{
+        font-size: 3.5vw;
+        margin: 2%;
+    }
+    
+    .index__peliculas {
+        width: 90vw;
+    }
+    
+    .index__series {
+        width: 90vw;
+    }
+    
+    .index__juegos {
+        width: 90vw;
+    }
+
+    .redes__facebook{
+        width: 8vw;
+    }
+    
+    .redes__instagram{
+        width: 8vw;
+    }
+    
+    .redes__twitter{
+        width: 8vw;
+    }
+    
+    .redes__steam{
+        width: 8vw;
+    }
+    
+    .redes__contacto{
+        width: 8vw;
+    }
+
+    /* Peliculas */
+
+    h1{
+        font-size:5vw;
+    }
+    
+    .sagaOriginal h2{
+        font-size: 4vw;
+    }
+    
+    .sagaOriginal__ul{
+        grid-template-columns: 1fr;
+    }
+    
+    .sagaOriginal img{
+        width: 80vw;
+        height: 95vw;
+    }
+
+    .sagaOriginal__peli p{
+        font-size: 3.5vw;
+    }
+    
+    
+    .spinoff h2{
+        font-size: 4vw;
+    }
+    
+    .spinoff__ul{
+        grid-template-columns: 1fr;
+    }
+    
+    .spinoff img{
+        width: 80vw;
+        height: 95vw;
+    }
+
+    .spinoff__peli p{
+        font-size: 3.5vw;
+    }
+    
+    .series__li__img{
+        padding: 1vw;
+        width: 50vw;
+        height: 30vw;
+    }
+
+    .series__li p{
+        font-size: 3vw;
+    }
+    
+    .videojuegos__li__img{
+        padding: 1vw;
+        width: 50vw;
+        height: 30vw;
+    }
+
+    .videojuegos__li p{
+        font-size: 3vw;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    /* Index */
+
+    body{
+        font-size: 3.5vw;
+    }
+
+    .logoDec{
+        margin: 2%;
+        display: block;
+    }
+    
+    .logoInicio{
+        height: 100%;
+        width: 100%;
+        display: inline;
+    }
+    .decIzq{
+        display: none;
+    }
+    
+    .decDer{
+        display: none;
+    }
+
+    .cabecera__ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecera__ul__li{
+        font-size: 15px;
+    }
+
+    .textoexplicativo{
+        width: 95%;
+    }
+    
+    .textoexplicativo p{
+        margin: 0 auto;
+        font-size: 5vw;
+    
+    }
+    .referencia {
+        font-size: 6vw;
+    }
+    
+    .principal__ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 2%;
+    }
+    
+    .principal__ul__li{
+        text-decoration: none;
+        background-color: #464649;
+        margin: 1%;
+        text-align: center;
+    }
+    
+    .principal__ul__li h4{
+        font-size: 5vw;
+        margin: 2%;
+    }
+    
+    .principal__ul__li p{
+        font-size: 4vw;
+        margin: 2%;
+    }
+    
+    .index__peliculas {
+        width: 90vw;
+    }
+    
+    .index__series {
+        width: 90vw;
+    }
+    
+    .index__juegos {
+        width: 90vw;
+    }
+
+    .redes__facebook{
+        width: 10vw;
+    }
+    
+    .redes__instagram{
+        width: 10vw;
+    }
+    
+    .redes__twitter{
+        width: 10vw;
+    }
+    
+    .redes__steam{
+        width: 10vw;
+    }
+    
+    .redes__contacto{
+        width: 10vw;
+    }
+
+    /* Peliculas */
+
+    h1{
+        font-size:6vw;
+    }
+    
+    .sagaOriginal h2{
+        font-size: 5vw;
+    }
+    
+    .sagaOriginal__ul{
+        grid-template-columns: 1fr;
+    }
+    
+    .sagaOriginal img{
+        width: 80vw;
+        height: 95vw;
+    }
+
+    .sagaOriginal__peli p{
+        font-size: 4vw;
+    }
+    
+    
+    .spinoff h2{
+        font-size: 5vw;
+    }
+    
+    .spinoff__ul{
+        grid-template-columns: 1fr;
+    }
+    
+    .spinoff img{
+        width: 80vw;
+        height: 95vw;
+    }
+
+    .spinoff__peli p{
+        font-size: 4vw;
+    }
+    
+    .series__li__img{
+        padding: 1vw;
+        width: 50vw;
+        height: 30vw;
+    }
+
+    .series__li p{
+        font-size: 3.5vw;
+    }
+    
+    .videojuegos__li__img{
+        padding: 1vw;
+        width: 50vw;
+        height: 30vw;
+    }
+
+    .videojuegos__li p{
+        font-size: 3.5vw;
+    }
+}
