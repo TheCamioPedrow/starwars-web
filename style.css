@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -8,6 +6,36 @@
 body{
     background-image:url(imagenes/fondo.jpg);
     font-size: 1.5vw;
+}
+
+.navbar{
+    display: flex;
+    background-color: #464649;
+    margin: 2%;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row{
+    margin: 2%;
+    padding-bottom: 2%;
+}
+
+.card{
+    background-color: #2a2a2c;
+    text-align: center;
+}
+
+.card h-100{
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+    margin: 2%;
 }
 
 .logoDec{
@@ -34,7 +62,7 @@ body{
     display: inline;
 }
 
-.cabecera__ul{
+/* .cabecera__ul{
     background-color: #464649;
     margin: 2%;
     display: flex;
@@ -51,7 +79,7 @@ body{
 .cabecera__ul__li a{
     text-decoration: none;
     background-color: #464649;
-}
+} */
 
 .textoexplicativo{
     margin: 2% auto;
@@ -60,9 +88,8 @@ body{
 }
 
 .textoexplicativo p{
-    color:#ffe81f;
+    color: #ffe81f;
     font-size: 1.75vw;
-    width: 90%;
     padding: 3vw;
     text-align: justify;
 }
@@ -127,11 +154,12 @@ body{
 }
 
 .pie__ul{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
+    height: 7vw;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #464649;
+    margin-bottom: 0px;
 }
 
 .pie__ul__li{
@@ -168,6 +196,7 @@ a{
 
 ul{
     list-style: none;
+    padding-left: 0px;
 }
 
 
@@ -241,6 +270,7 @@ h1{
     margin: 2%;
     display: flex;
     flex-direction: column;
+    padding-left: 0px;
 }
 
 .series__li{
@@ -279,21 +309,21 @@ h1{
     align-items: center;
 }
 
-.videojuegos__li__img{
+.col-md-4 img{
     padding: 1vw;
     width: 25vw;
     height: 15vw;
 }
 
-.videojuegos__li__img:hover{
+.col-md-4:hover{
     transform: scale(1.10);
     transition: all 2s;
 }
 
-.invertido{
+/* .invertido{
     align-self: flex-end;
     flex-direction: row-reverse;
-}
+} */
 
 .formulario{
     margin: 2%;
@@ -335,8 +365,8 @@ h1{
 
 /* MediaQueries */
 
-@media screen and (max-width: 800px){
-    /* Index */
+/* @media screen and (max-width: 800px){
+    Index
     
     body{
         font-size: 3.5vw;
@@ -415,7 +445,7 @@ h1{
         width: 8vw;
     }
 
-    /* Peliculas */
+    Peliculas
 
     h1{
         font-size:5vw;
@@ -475,11 +505,11 @@ h1{
     .videojuegos__li p{
         font-size: 3vw;
     }
-}
+} */
 
 
-@media screen and (max-width: 500px){
-    /* Index */
+/* @media screen and (max-width: 500px){
+    Index
 
     body{
         font-size: 3.5vw;
@@ -582,7 +612,7 @@ h1{
         width: 10vw;
     }
 
-    /* Peliculas */
+    Peliculas
 
     h1{
         font-size:6vw;
@@ -642,4 +672,4 @@ h1{
     .videojuegos__li p{
         font-size: 3.5vw;
     }
-}
+} */

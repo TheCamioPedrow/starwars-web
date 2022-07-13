@@ -6,36 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
     <title>Star Wars</title>
 </head>
 <body>
 	<header class="cabecera"><!--nav y logo-->
-		<nav>
-			<div class="logoDec">
-				<img class="decIzq" src="./imagenes/villans.jpg" alt="decoracion izq">
-				<a href="#"><img class="logoInicio" src="./imagenes/sw logo.png" alt="Logo de mi pagina"></a>
-				<img class="decDer" src="./imagenes/heroes.jpg" alt="decoracion der">
-			</div>
-			<div class="navegador">
-				<ul class="cabecera__ul">
-					<li class="cabecera__ul__li">
-						<a href="#"><h3>Inicio</h3></a>
-					</li>
-					<li class="cabecera__ul__li">
-						<a href="./paginas/peliculas.html"><h3>Peliculas</h3></a>
-					</li>
-					<li class="cabecera__ul__li">
-						<a href="./paginas/series.html"><h3>Series</h3></a>
-					</li>
-					<li class="cabecera__ul__li">
-						<a href="./paginas/juegos.html"><h3>Videojuegos</h3></a>
-					</li>
-					<li class="cabecera__ul__li">
-						<a href="./paginas/contacto.html"><h3>Contacto</h3></a>
-					</li>
-				</ul>
+		<div class="logoDec">
+			<img class="decIzq" src="./imagenes/villans.jpg" alt="decoracion izq">
+			<a href="#"><img class="logoInicio" src="./imagenes/sw logo.png" alt="Logo de mi pagina"></a>
+			<img class="decDer" src="./imagenes/heroes.jpg" alt="decoracion der">
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./paginas/peliculas.html">Peliculas</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./paginas/series.html">Series</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./paginas/juegos.html">Videojuegos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	</header>
@@ -45,51 +51,76 @@
 			<p>La primera película de la serie, Star Wars: Episodio IV - Una nueva esperanza (1977), contó con actores como Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness, Anthony Daniels, Kenny Baker, Peter Mayhew y David Prowse. Aunque tuvo numerosas dificultades durante la producción, 20th Century Fox se encargó de su distribución y fue estrenada el 25 de mayo de 1977. Se convirtió en un fenómeno de la cultura popular y su influencia ha sido reconocida por numerosos cineastas. Su éxito hizo que Lucas financiara dos secuelas más, Star Wars: Episodio V - El Imperio contraataca (1980) y Star Wars: Episode VI - Return of the Jedi (1983), que completaron la denominada trilogía original y a las que se incorporaron actores como Billy Dee Williams, Frank Oz e Ian McDiarmid.</p>
 			<p>Casi dos décadas después se estrenó Star Wars: Episodio I - La amenaza fantasma (1999), la primera cinta de una nueva trilogía de precuelas, a la que siguieron Star Wars: Episodio II - El ataque de los clones (2002) y Star Wars: Episodio III - La venganza de los Sith (2005). Esta saga de precuelas se centra en los años previos a la anterior trilogía. Liam Neeson, Ewan McGregor, Natalie Portman, Hayden Christensen, Samuel L. Jackson y Christopher Lee fueron algunos de los actores que se sumaron al reparto, en el que también participaron algunos actores de la trilogía original. A finales de 2012 Disney adquirió Lucasfilm, productora de las seis películas anteriores, y anunció la realización de una tercera trilogía cinematográfica integrada por Star Wars: Episodio VII - El despertar de la Fuerza (2015), Star Wars: Episodio VIII - Los últimos Jedi (2017) y Star Wars: Episodio IX - El ascenso de Skywalker (2019), en la que nuevamente participó parte del elenco original junto con actores como Daisy Ridley, John Boyega y Oscar Isaac. El estudio es responsable también de la producción de un par de películas derivadas que abordan elementos del canon y se encargan de retratar el universo extendido de la franquicia como son Rogue One (2016) y Han Solo (2018)....</p>
 		</section>
-		<section>	
-			<h3 class="referencia">These are you first steps...</h3>
-			<ul class="principal__ul">
-				<li class="principal__ul__li">
-					<a href="./paginas/peliculas.html"><h4>Peliculas</h4><img class="index__peliculas" src="./imagenes/peliculas.jpg" alt="imagen peliculas"></a>
-					<p>Uno de los puntos más importantes de las películas de Star Wars es que Lucas supo crear un mundo lleno de tecnología que parece que haya sido usada durante años y que parecía real, y combinarlo con aspectos tradicionales, como la existencia de dos órdenes guerreras, los Jedi y los Sith, así como sus respectivas filosofías, el uso de armas de contacto como el sable de luz, la existencia de una república y de un imperio, y la política.</p>
-				</li>
-				<li class="principal__ul__li">
+		<h3 class="referencia">These are you first steps...</h3>
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			<div class="col">
+				<div class="card h-100">
+					<a href="./paginas/peliculas.html"><h4>Peliculas</h4><img src="./imagenes/peliculas.jpg" class="index__peliculas" alt="imagen peliculas"></a>
+					<div class="card-body">
+						<p class="card-text">Uno de los puntos más importantes de las películas de Star Wars es que Lucas supo crear un mundo lleno de tecnología que parece que haya sido usada durante años y que parecía real, y combinarlo con aspectos tradicionales, como la existencia de dos órdenes guerreras, los Jedi y los Sith, así como sus respectivas filosofías, el uso de armas de contacto como el sable de luz, la existencia de una república y de un imperio, y la política.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100">
 					<a href="./paginas/series.html"><h4>Series</h4><img class="index__series" src="./imagenes/mando.jpg" alt="imagen series"></a>
-					<p>The Clone Wars y The Mandalorian abrieron el camino hacia otras series de Star Wars. Lucasfilm ha encontrado en Disney+ su plataforma ideal para desarrollar todas estas ideas. Historias más reposadas, sin las constricciones de un largometraje, según sus propios creadores. Con todo, la saga galáctica también continuará en formato cinematográfico, con varios productos ya confirmados. Después de una Star Wars Celebration llena de novedades, es momento de detenarnos para recopilar los productos que están en preparación.</p>
-				</li>
-				<li class="principal__ul__li">
+					<div class="card-body">
+						<p class="card-text">The Clone Wars y The Mandalorian abrieron el camino hacia otras series de Star Wars. Lucasfilm ha encontrado en Disney+ su plataforma ideal para desarrollar todas estas ideas. Historias más reposadas, sin las constricciones de un largometraje, según sus propios creadores. Con todo, la saga galáctica también continuará en formato cinematográfico, con varios productos ya confirmados. Después de una Star Wars Celebration llena de novedades, es momento de detenarnos para recopilar los productos que están en preparación.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100">
 					<a href="./paginas/juegos.html"><h4>Videojuegos</h4><img class="index__juegos" src="./imagenes/bf.jpg" alt="imagen videojuegos"></a>
-					<p>Lucasfilm Games, el sello dedicado a videojuegos de la compañía, representa una nueva generación de títulos. EA y Disney firmaron un acuerdo de exclusividad que ya ha expirado, por lo que otras compañías también están trabajando en productos de la saga galáctica. Empresas como Ubisoft o Aspyr perfilan sus proyectos, mientras que se acaba de desvelar el desarrollo de una nueva producción, en manos de Skydance New Media.</p>
-				</li>
-			</ul>
-		</section>
+					<div class="card-body">
+						<p class="card-text">Lucasfilm Games, el sello dedicado a videojuegos de la compañía, representa una nueva generación de títulos. EA y Disney firmaron un acuerdo de exclusividad que ya ha expirado, por lo que otras compañías también están trabajando en productos de la saga galáctica. Empresas como Ubisoft o Aspyr perfilan sus proyectos, mientras que se acaba de desvelar el desarrollo de una nueva producción, en manos de Skydance New Media.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</main>
 	<footer>
 		<ul class="pie__ul">
 			<li class="pie__ul__li">
-				<a class="pie__ul__redes" href="https://www.facebook.com/pedro.rojo3/" target="_blank">
-					<img class="redes__facebook" src="./imagenes/facebook.jpg" alt="Facebook">
+				<button type="button" class="btn btn" data-bs-toggle="tooltip" data-bs-placement="top" title="Mi Cuenta de Facebook">
+					<a class="pie__ul__redes" href="https://www.facebook.com/pedro.rojo3/" target="_blank">
+						<img class="redes__facebook" src="./imagenes/facebook.jpg" alt="Facebook">
+					</a>
+				</button>
+			</li>
+			<li class="pie__ul__li">
+				<button type="button" class="btn btn" data-bs-toggle="tooltip" data-bs-placement="top" title="Mi Cuenta de Instagram">
+					<a class="pie__ul__redes" href="https://www.instagram.com/thecamiopedrow/?hl=es" target="_blank">
+						<img class="redes__instagram" src="./imagenes/instagram.jpg" alt="Instagram">
+					</a>
+				</button>
 				</a>
 			</li>
 			<li class="pie__ul__li">
-				<a class="pie__ul__redes" href="https://www.instagram.com/thecamiopedrow/?hl=es" target="_blank">
-					<img class="redes__instagram" src="./imagenes/instagram.jpg" alt="Instagram">
+				<button type="button" class="btn btn" data-bs-toggle="tooltip" data-bs-placement="top" title="Mi Cuenta de Twitter">
+					<a class="pie__ul__redes" href="https://twitter.com/TheCamioPedrow" target="_blank">
+						<img class="redes__twitter" src="./imagenes/twitter.jpg" alt="Twitter">
+					</a>
+				</button>
 				</a>
 			</li>
 			<li class="pie__ul__li">
-				<a class="pie__ul__redes" href="https://twitter.com/TheCamioPedrow" target="_blank">
-					<img class="redes__twitter" src="./imagenes/twitter.jpg" alt="Twitter">
-				</a>
+				<button type="button" class="btn btn" data-bs-toggle="tooltip" data-bs-placement="top" title="Mi Cuenta de Steam">
+					<a class="pie__ul__redes" href="https://steamcommunity.com/profiles/76561198145935454/" target="_blank">
+						<img class="redes__steam" src="./imagenes/steam.jpg" alt="Steam">
+					</a>
+				</button>
 			</li>
 			<li class="pie__ul__li">
-				<a class="pie__ul__redes" href="https://steamcommunity.com/profiles/76561198145935454/" target="_blank">
-					<img class="redes__steam" src="./imagenes/steam.jpg" alt="Steam">
-				</a>
-			</li>
-			<li class="pie__ul__li">
-				<a class="pie__ul__redes" href="./paginas/contacto.html">
-					<img class="redes__contacto" src="./imagenes/fulcrum.jpg" alt="imagen contacto">
+				<button type="button" class="btn btn" data-bs-toggle="tooltip" data-bs-placement="top" title="Pagina de Contacto">
+					<a class="pie__ul__redes" href="./paginas/contacto.html">
+						<img class="redes__contacto" src="./imagenes/fulcrum.jpg" alt="imagen contacto">
+					</a>
+				</button>
 			</li>
 		</ul>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
