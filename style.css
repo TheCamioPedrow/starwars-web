@@ -17,6 +17,7 @@ body{
 .navbar-nav{
     display: flex;
     justify-content: space-evenly;
+    margin: 0 auto;
 }
 
 .row{
@@ -26,10 +27,6 @@ body{
 
 .card{
     background-color: #2a2a2c;
-    text-align: center;
-}
-
-.card h-100{
     text-align: center;
 }
 
@@ -228,6 +225,7 @@ h1{
 }
 
 .sagaOriginal img{
+    margin: 0 auto;
     padding: 2vw;
     width: 25vw;
     height: 35vw;
@@ -309,32 +307,31 @@ h1{
     align-items: center;
 }
 
-.col-md-4 img{
+.col-md-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col-md-3 img{
     padding: 1vw;
     width: 25vw;
     height: 15vw;
 }
 
-.col-md-4:hover{
+.col-md-3:hover{
     transform: scale(1.10);
     transition: all 2s;
 }
 
-/* .invertido{
-    align-self: flex-end;
-    flex-direction: row-reverse;
-} */
 
 .formulario{
     margin: 2%;
+    padding: 2%;
     background-color: #464649;
 }
 
-.formulario__nye{
-    padding: 2%;
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .formulario__nye__input{
     display: inline-block;
