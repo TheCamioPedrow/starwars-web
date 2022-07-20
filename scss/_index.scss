@@ -1,0 +1,37 @@
+.textoexplicativo{
+    margin: 2% auto;
+    background-color: #4646497a;
+    width: 60%;
+}
+
+.textoexplicativo p{
+    color: $color-sw;
+    font-size: 1.75vw;
+    padding: 3vw;
+    text-align: justify;
+}
+
+.referencia {
+    display: block;
+    font-size: 2vw;
+    margin: 2% auto;
+    padding-top: 0.75vw;
+    padding-bottom: 0.75vw;
+    background-color: $color-principal;
+    text-align: center;
+}
+
+.col h4{
+    font-size: 1.5vw;
+    text-align: center;
+    margin: $ii;
+}
+
+.index__principal {
+    width: 25vw;
+}
+
+.index__principal:hover{
+    transform: scale(1.10);
+    transition: all 2s;
+}

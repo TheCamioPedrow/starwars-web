@@ -1,0 +1,81 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body{
+    background-image:url(../imagenes/fondo.jpg);
+    font-size: 1.5vw;
+}
+
+.logoDec{
+    margin: $ii;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.logoInicio{
+    height: 100%;
+    width: 100%;
+    display: inline;
+}
+
+.navbar{
+    display: flex;
+    background-color: $color-principal;
+    margin: $ii;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.nav-item{
+    margin: 0 auto;
+}
+
+.pie__ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-principal;
+    margin-bottom: 0px;
+}
+
+.pie__ul__li{
+    margin: 1.25vw auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: #464649;
+}
+
+.redes{
+    width: 3.5vw;
+}
+
+.card{
+    background-color: $color-cards;
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+    margin: $ii;
+}
+
+.row{
+    margin: $ii;
+    padding-bottom: $ii;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
