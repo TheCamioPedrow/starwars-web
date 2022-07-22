@@ -5,7 +5,7 @@
 }
 
 .textoexplicativo p{
-    color: $color-sw;
+    color:  map-get($colores, "color-sw" );
     font-size: 1.75vw;
     padding: 3vw;
     text-align: justify;
@@ -17,7 +17,7 @@
     margin: 2% auto;
     padding-top: 0.75vw;
     padding-bottom: 0.75vw;
-    background-color: $color-principal;
+    background-color:  map-get($colores, "color-principal" );
     text-align: center;
 }
 
