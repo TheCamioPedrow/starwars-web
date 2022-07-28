@@ -3,5 +3,18 @@ $colores: (
     "color-principal": #464649,
     "color-cards": #2a2a2c,
     "color-letras": white,
-    "color-sw": #ffe81f,
+    "color-sw": #ffe81f
 );
+
+%ta{
+    text-align: center;
+}
+
+@mixin fs ($size){
+    font-size: $size;
+}
+
+@mixin flex ($direction) {
+    display: flex;
+    flex-direction: $direction;
+}

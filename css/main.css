@@ -1,3 +1,6 @@
+h1, .referencia, .col h4, .pelis, .pelis h2, .syv__li h5 {
+  text-align: center; }
+
 * {
   font-family: 'Roboto', sans-serif;
   color: white; }
@@ -17,13 +20,25 @@ body {
   width: 100%;
   display: inline; }
 
+.logoDer {
+  height: 100%;
+  width: 100%;
+  display: inline; }
+
+.logoIzq {
+  height: 100%;
+  width: 100%;
+  display: inline; }
+
 .navbar {
   display: flex;
+  flex-direction: row;
   background-color: #464649;
   margin: 2%; }
 
 .navbar-nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   width: 100%; }
 
@@ -32,6 +47,7 @@ body {
 
 .pie__ul {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: #464649;
@@ -40,8 +56,7 @@ body {
 .pie__ul__li {
   margin: 1.25vw auto;
   padding-left: 1vw;
-  padding-right: 1vw;
-  background-color: #464649; }
+  padding-right: 1vw; }
 
 .redes {
   width: 3.5vw; }
@@ -65,6 +80,12 @@ ul {
   list-style: none;
   padding-left: 0px; }
 
+h1 {
+  font-size: 2vw;
+  margin: 2%;
+  padding: 0.75vw;
+  background-color: #464649; }
+
 .textoexplicativo {
   margin: 2% auto;
   background-color: #4646497a;
@@ -82,12 +103,10 @@ ul {
   margin: 2% auto;
   padding-top: 0.75vw;
   padding-bottom: 0.75vw;
-  background-color: #464649;
-  text-align: center; }
+  background-color: #464649; }
 
 .col h4 {
   font-size: 1.5vw;
-  text-align: center;
   margin: 2%; }
 
 .index__principal {
@@ -96,3 +115,229 @@ ul {
 .index__principal:hover {
   transform: scale(1.1);
   transition: all 2s; }
+
+.pelis {
+  margin: 2%;
+  display: block;
+  background-color: #464649; }
+
+.pelis h2 {
+  background-color: #2a2a2c;
+  padding: 0.5vw; }
+
+.pelis img {
+  margin: 0 auto;
+  padding: 2vw;
+  width: 25vw;
+  height: 35vw; }
+
+.pelis img:hover {
+  transform: scale(1.25);
+  transition: all 2s; }
+
+.syv {
+  margin: 2%;
+  display: flex;
+  flex-direction: column; }
+
+.syv__li {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #2a2a2c;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.syv__li h5 {
+  color: #ffe81f;
+  font-size: 1.75vw; }
+
+.syv__li__img {
+  padding: 1vw;
+  width: 25vw;
+  height: 15vw; }
+
+.syv__li__img:hover {
+  transform: scale(1.1);
+  transition: all 2s; }
+
+.invertido {
+  align-self: flex-end;
+  flex-direction: row-reverse; }
+
+.form-control {
+  background-color: #2a2a2c;
+  color: white; }
+
+.formulario {
+  margin: 2%;
+  padding: 2%;
+  background-color: #464649; }
+
+.formulario__input {
+  display: flex;
+  flex-direction: row; }
+
+.form-label {
+  margin: 2%; }
+
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 2.5vw; }
+  .textoexplicativo {
+    width: 80%; }
+  .textoexplicativo p {
+    margin: 0 auto;
+    font-size: 2.5vw; }
+  .referencia {
+    font-size: 2.75vw; }
+  .card h4 {
+    font-size: 2.5vw;
+    margin: 2%; }
+  .card-text {
+    font-size: 2vw; }
+  .index__principal {
+    width: 27.5vw; }
+  .redes {
+    width: 5vw; }
+  /* Peliculas */
+  h1 {
+    font-size: 2.75vw; }
+  .sagaOriginal h2 {
+    font-size: 2.5vw; }
+  .sagaOriginal img {
+    width: 27.5vw;
+    height: 40vw; }
+  .spinoff h2 {
+    font-size: 2.5vw; }
+  .spinoff img {
+    width: 27.5vw;
+    height: 40vw; }
+  .spinoff__peli p {
+    font-size: 2.5vw; }
+  /* Series y Videojuegos */
+  .syv__li {
+    display: flex;
+    flex-direction: column; }
+  .syv__li h5 {
+    font-size: 3vw; }
+  .syv__li__img {
+    margin: 2%;
+    width: 80vw;
+    height: 50vw; }
+  /* Contacto */
+  .formulario__input {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 3vw; }
+  .textoexplicativo {
+    width: 80%; }
+  .textoexplicativo p {
+    margin: 0 auto;
+    font-size: 3vw; }
+  .referencia {
+    font-size: 3.25vw; }
+  .card h4 {
+    font-size: 3vw;
+    margin: 2%; }
+  .card-text {
+    font-size: 3vw; }
+  .index__principal {
+    width: 60vw; }
+  .redes {
+    width: 8vw; }
+  /* Peliculas */
+  h1 {
+    font-size: 4vw; }
+  .sagaOriginal h2 {
+    font-size: 3.5vw; }
+  .sagaOriginal img {
+    width: 60vw;
+    height: 85vw; }
+  .spinoff h2 {
+    font-size: 3.5vw; }
+  .spinoff img {
+    width: 60vw;
+    height: 85vw; }
+  .spinoff__peli p {
+    font-size: 3.5vw; }
+  /* Series y Videojuegos */
+  .syv__li {
+    display: flex;
+    flex-direction: column; }
+  .syv__li h5 {
+    font-size: 5vw; }
+  .syv__li__img {
+    margin: 2%;
+    width: 90vw;
+    height: 60vw; }
+  /* Contacto */
+  .form-control {
+    margin-top: 2%;
+    margin-bottom: 2%; }
+  .formulario__input {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 4vw; }
+  .logoDec {
+    margin: 2%;
+    display: block; }
+  .logoInicio {
+    height: 100%;
+    width: 100%;
+    display: inline; }
+  .logoIzq {
+    display: none; }
+  .logoDer {
+    display: none; }
+  .textoexplicativo {
+    width: 95%; }
+  .textoexplicativo p {
+    margin: 0 auto;
+    font-size: 5vw; }
+  .referencia {
+    font-size: 6vw; }
+  .card h4 {
+    font-size: 5vw;
+    margin: 2%; }
+  .index__principal {
+    width: 85vw; }
+  .redes {
+    width: 10vw; }
+  /* Peliculas */
+  h1 {
+    font-size: 6vw; }
+  .sagaOriginal h2 {
+    font-size: 5vw; }
+  .sagaOriginal img {
+    width: 80vw;
+    height: 95vw; }
+  .card-text {
+    font-size: 4.25vw; }
+  .spinoff h2 {
+    font-size: 5vw; }
+  .spinoff img {
+    width: 80vw;
+    height: 95vw; }
+  .spinoff__peli p {
+    font-size: 4vw; }
+  /* Series y Videojuegos */
+  .syv__li {
+    display: flex;
+    flex-direction: column; }
+  .syv__li h5 {
+    font-size: 5vw; }
+  .syv__li__img {
+    margin: 2%;
+    width: 90vw;
+    height: 60vw; }
+  /* Contacto */
+  .formulario__input {
+    display: flex;
+    flex-direction: column; } }

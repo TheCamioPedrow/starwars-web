@@ -21,14 +21,26 @@ body{
     display: inline;
 }
 
+.logoDer{
+    height: 100%;
+    width: 100%;
+    display: inline;
+}
+
+.logoIzq{
+    height: 100%;
+    width: 100%;
+    display: inline;
+}
+
 .navbar{
-    display: flex;
+    @include flex (row);
     background-color: map-get($colores, "color-principal" );
     margin: $ii;
 }
 
 .navbar-nav{
-    display: flex;
+    @include flex (column);
     justify-content: space-evenly;
     width: 100%;
 }
@@ -38,7 +50,7 @@ body{
 }
 
 .pie__ul{
-    display: flex;
+    @include flex (row);
     align-items: center;
     justify-content: center;
     background-color:  map-get($colores, "color-principal" );
@@ -49,7 +61,6 @@ body{
     margin: 1.25vw auto;
     padding-left: 1vw;
     padding-right: 1vw;
-    background-color:  map-get($colores, "color-principal" );
 }
 
 .redes{
@@ -78,4 +89,12 @@ a{
 ul{
     list-style: none;
     padding-left: 0px;
+}
+
+h1{
+    font-size:2vw;
+    margin:$ii;
+    padding: 0.75vw;
+    background-color: map-get($colores, "color-principal" );
+    @extend %ta;
 }

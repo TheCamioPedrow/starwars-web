@@ -1,0 +1,18 @@
+.form-control{
+    background-color: map-get($colores, "color-cards" );;
+    color: map-get($colores, "color-letras" );;
+}
+
+.formulario{
+    margin: $ii;
+    padding: $ii;
+    background-color: map-get($colores, "color-principal" );;
+}
+
+.formulario__input{
+    @include flex(row);
+}
+
+.form-label{
+    margin: $ii;
+}

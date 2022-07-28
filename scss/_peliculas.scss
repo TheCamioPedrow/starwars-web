@@ -1,0 +1,24 @@
+.pelis{
+    margin: $ii;
+    display: block;
+    background-color: map-get($colores, "color-principal" );;
+    @extend %ta;
+}
+
+.pelis h2{
+    background-color:map-get($colores, "color-cards" );
+    @extend %ta;
+    padding: 0.5vw;
+}
+
+.pelis img{
+    margin: 0 auto;
+    padding: 2vw;
+    width: 25vw;
+    height: 35vw;
+}
+
+.pelis img:hover{
+    transform: scale(1.25);
+    transition: all 2s;
+}

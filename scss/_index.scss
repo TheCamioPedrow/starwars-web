@@ -18,12 +18,12 @@
     padding-top: 0.75vw;
     padding-bottom: 0.75vw;
     background-color:  map-get($colores, "color-principal" );
-    text-align: center;
+    @extend %ta;
 }
 
 .col h4{
     font-size: 1.5vw;
-    text-align: center;
+    @extend %ta;
     margin: $ii;
 }
 

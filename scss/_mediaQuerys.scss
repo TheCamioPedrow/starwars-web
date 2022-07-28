@@ -1,0 +1,283 @@
+@media screen and (max-width: 900px){
+    body{
+        @include fs (2.5vw);
+    }
+
+    .textoexplicativo{
+        width: 80%;
+    }
+
+    .textoexplicativo p{
+        margin: 0 auto;
+        @include fs (2.5vw);
+    }
+
+    .referencia {
+        @include fs (2.75vw);
+    }
+
+    .card h4{
+        @include fs (2.5vw);
+        margin: $ii;
+    }
+
+    .card-text{
+        @include fs (2vw);
+    }
+
+    .index__principal{
+        width: 27.5vw;
+    }
+
+    .redes{
+        width: 5vw;
+    }
+
+     /* Peliculas */
+
+    h1{
+        @include fs (2.75vw);
+    }
+
+    .sagaOriginal h2{
+        @include fs (2.5vw);
+    }
+
+    .sagaOriginal img{
+        width: 27.5vw;
+        height: 40vw;
+    }
+
+    .spinoff h2{
+        @include fs (2.5vw);
+    }
+
+    .spinoff img{
+        width: 27.5vw;
+        height: 40vw;
+    }
+
+    .spinoff__peli p{
+        @include fs (2.5vw);
+    }
+
+    /* Series y Videojuegos */
+
+    .syv__li{
+        @include flex (column);
+    }
+
+    .syv__li h5{
+        @include fs (3vw);
+    }
+
+    .syv__li__img{
+        margin: $ii;
+        width: 80vw;
+        height: 50vw;
+    }
+
+    /* Contacto */
+
+    .formulario__input{
+        @include flex (column);
+    }
+}
+
+@media screen and (max-width: 767px){
+    body{
+        @include fs (3vw);
+    }
+
+    .textoexplicativo{
+        width: 80%;
+    }
+
+    .textoexplicativo p{
+        margin: 0 auto;
+        @include fs (3vw);
+    }
+
+    .referencia {
+        @include fs (3.25vw);
+    }
+
+    .card h4{
+        @include fs (3vw);
+        margin: 2%;
+    }
+
+    .card-text{
+        @include fs (3vw);
+    }
+
+    .index__principal{
+        width: 60vw;
+    }
+
+    .redes{
+        width: 8vw;
+    }
+
+    /* Peliculas */
+
+    h1{
+        @include fs (4vw);
+    }
+
+    .sagaOriginal h2{
+        @include fs (3.5vw);
+    }
+
+    .sagaOriginal img{
+        width: 60vw;
+        height: 85vw;
+    }
+
+    .spinoff h2{
+        @include fs (3.5vw);
+    }
+
+    .spinoff img{
+        width: 60vw;
+        height: 85vw;
+    }
+
+    .spinoff__peli p{
+        @include fs (3.5vw);
+    }
+
+    /* Series y Videojuegos */
+
+    .syv__li{
+        @include flex (column);
+    }
+
+    .syv__li h5{
+        @include fs (5vw);
+    }
+
+    .syv__li__img{
+        margin: $ii;
+        width: 90vw;
+        height: 60vw;
+    }
+
+    /* Contacto */
+
+    .form-control{
+        margin-top: $ii;
+        margin-bottom: $ii;
+    }
+
+    .formulario__input{
+        @include flex (column);
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    body{
+        @include fs (4vw);
+    }
+
+    .logoDec{
+        margin: $ii;
+        display: block;
+    }
+
+    .logoInicio{
+        height: 100%;
+        width: 100%;
+        display: inline;
+    }
+
+    .logoIzq{
+        display: none;
+    }
+    
+    .logoDer{
+        display: none;
+    }
+    
+    .textoexplicativo{
+        width: 95%;
+    }
+
+    .textoexplicativo p{
+        margin: 0 auto;
+        @include fs (5vw);
+    }
+
+    .referencia {
+        @include fs (6vw);
+    }
+
+    .card h4{
+        @include fs (5vw);
+        margin: $ii;
+    }
+
+    .index__principal{
+        width: 85vw;
+    }
+
+    .redes{
+        width: 10vw;
+    }
+
+    /* Peliculas */
+
+    h1{
+        @include fs (6vw);
+    }
+
+    .sagaOriginal h2{
+        @include fs (5vw);
+    }
+
+    .sagaOriginal img{
+        width: 80vw;
+        height: 95vw;
+    }
+
+    .card-text{
+        @include fs (4.25vw);
+    }
+
+    .spinoff h2{
+        @include fs (5vw);
+    }
+
+    .spinoff img{
+        width: 80vw;
+        height: 95vw;
+    }
+
+    .spinoff__peli p{
+        @include fs (4vw);
+    }
+
+    /* Series y Videojuegos */
+
+    .syv__li{
+        @include flex (column);
+    }
+
+    .syv__li h5{
+        @include fs (5vw);
+    }
+
+    .syv__li__img{
+        margin: $ii;
+        width: 90vw;
+        height: 60vw;
+    }
+
+    /* Contacto */
+
+    .formulario__input{
+        @include flex (column);
+
+    }
+}
