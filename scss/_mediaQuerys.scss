@@ -39,39 +39,30 @@
         @include fs (2.75vw);
     }
 
-    .sagaOriginal h2{
+    .pelis h2{
         @include fs (2.5vw);
     }
 
-    .sagaOriginal img{
+    .pelis img{
         width: 27.5vw;
         height: 40vw;
     }
 
-    .spinoff h2{
-        @include fs (2.5vw);
-    }
-
-    .spinoff img{
-        width: 27.5vw;
-        height: 40vw;
-    }
-
-    .spinoff__peli p{
+    .pelis__peli p{
         @include fs (2.5vw);
     }
 
     /* Series y Videojuegos */
 
-    .syv__li{
+    .syv__div{
         @include flex (column);
     }
 
-    .syv__li h5{
+    .syv__div h5{
         @include fs (3vw);
     }
 
-    .syv__li__img{
+    .syv__div__img{
         margin: $ii;
         width: 80vw;
         height: 50vw;
@@ -125,39 +116,30 @@
         @include fs (4vw);
     }
 
-    .sagaOriginal h2{
+    .pelis h2{
         @include fs (3.5vw);
     }
 
-    .sagaOriginal img{
+    .pelis img{
         width: 60vw;
         height: 85vw;
     }
 
-    .spinoff h2{
-        @include fs (3.5vw);
-    }
-
-    .spinoff img{
-        width: 60vw;
-        height: 85vw;
-    }
-
-    .spinoff__peli p{
+    .pelis__peli p{
         @include fs (3.5vw);
     }
 
     /* Series y Videojuegos */
 
-    .syv__li{
+    .syv__div{
         @include flex (column);
     }
 
-    .syv__li h5{
+    .syv__div h5{
         @include fs (5vw);
     }
 
-    .syv__li__img{
+    .syv__div__img{
         margin: $ii;
         width: 90vw;
         height: 60vw;
@@ -232,11 +214,11 @@
         @include fs (6vw);
     }
 
-    .sagaOriginal h2{
+    .pelis h2{
         @include fs (5vw);
     }
 
-    .sagaOriginal img{
+    .pelis img{
         width: 80vw;
         height: 95vw;
     }
@@ -245,30 +227,21 @@
         @include fs (4.25vw);
     }
 
-    .spinoff h2{
-        @include fs (5vw);
-    }
-
-    .spinoff img{
-        width: 80vw;
-        height: 95vw;
-    }
-
-    .spinoff__peli p{
+    .pelis__peli p{
         @include fs (4vw);
     }
 
     /* Series y Videojuegos */
 
-    .syv__li{
+    .syv__div{
         @include flex (column);
     }
 
-    .syv__li h5{
+    .syv__div h5{
         @include fs (5vw);
     }
 
-    .syv__li__img{
+    .syv__div__img{
         margin: $ii;
         width: 90vw;
         height: 60vw;

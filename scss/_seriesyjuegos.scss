@@ -3,7 +3,7 @@
     @include flex(column);
 }
 
-.syv__li{
+.syv__div{
     margin-top: $ii;
     margin-bottom: $ii;
     background-color:map-get($colores, "color-cards" );
@@ -11,19 +11,19 @@
     align-items: center;
 }
 
-.syv__li h5{
+.syv__div h5{
     color: map-get($colores, "color-sw" );
     @extend %ta;
     font-size: 1.75vw;
 }
 
-.syv__li__img{
+.syv__div__img{
     padding: 1vw;
     width: 25vw;
     height: 15vw;
 }
 
-.syv__li__img:hover{
+.syv__div__img:hover{
     transform: scale(1.10);
     transition: all 2s;
 }

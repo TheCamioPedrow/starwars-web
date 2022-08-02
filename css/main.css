@@ -1,4 +1,4 @@
-h1, .referencia, .col h4, .pelis, .pelis h2, .syv__li h5 {
+h1, .referencia, .col h4, .pelis, .pelis h2, .syv__div h5 {
   text-align: center; }
 
 * {
@@ -140,7 +140,7 @@ h1 {
   display: flex;
   flex-direction: column; }
 
-.syv__li {
+.syv__div {
   margin-top: 2%;
   margin-bottom: 2%;
   background-color: #2a2a2c;
@@ -148,16 +148,16 @@ h1 {
   flex-direction: row;
   align-items: center; }
 
-.syv__li h5 {
+.syv__div h5 {
   color: #ffe81f;
   font-size: 1.75vw; }
 
-.syv__li__img {
+.syv__div__img {
   padding: 1vw;
   width: 25vw;
   height: 15vw; }
 
-.syv__li__img:hover {
+.syv__div__img:hover {
   transform: scale(1.1);
   transition: all 2s; }
 
@@ -203,25 +203,25 @@ h1 {
   /* Peliculas */
   h1 {
     font-size: 2.75vw; }
-  .sagaOriginal h2 {
+  .pelis h2 {
     font-size: 2.5vw; }
-  .sagaOriginal img {
+  .pelis img {
     width: 27.5vw;
     height: 40vw; }
-  .spinoff h2 {
+  .pelis h2 {
     font-size: 2.5vw; }
-  .spinoff img {
+  .pelis img {
     width: 27.5vw;
     height: 40vw; }
-  .spinoff__peli p {
+  .pelis__peli p {
     font-size: 2.5vw; }
   /* Series y Videojuegos */
-  .syv__li {
+  .syv__div {
     display: flex;
     flex-direction: column; }
-  .syv__li h5 {
+  .syv__div h5 {
     font-size: 3vw; }
-  .syv__li__img {
+  .syv__div__img {
     margin: 2%;
     width: 80vw;
     height: 50vw; }
@@ -252,25 +252,25 @@ h1 {
   /* Peliculas */
   h1 {
     font-size: 4vw; }
-  .sagaOriginal h2 {
+  .pelis h2 {
     font-size: 3.5vw; }
-  .sagaOriginal img {
+  .pelis img {
     width: 60vw;
     height: 85vw; }
-  .spinoff h2 {
+  .pelis h2 {
     font-size: 3.5vw; }
-  .spinoff img {
+  .pelis img {
     width: 60vw;
     height: 85vw; }
-  .spinoff__peli p {
+  .pelis__peli p {
     font-size: 3.5vw; }
   /* Series y Videojuegos */
-  .syv__li {
+  .syv__div {
     display: flex;
     flex-direction: column; }
-  .syv__li h5 {
+  .syv__div h5 {
     font-size: 5vw; }
-  .syv__li__img {
+  .syv__div__img {
     margin: 2%;
     width: 90vw;
     height: 60vw; }
@@ -313,27 +313,27 @@ h1 {
   /* Peliculas */
   h1 {
     font-size: 6vw; }
-  .sagaOriginal h2 {
+  .pelis h2 {
     font-size: 5vw; }
-  .sagaOriginal img {
+  .pelis img {
     width: 80vw;
     height: 95vw; }
   .card-text {
     font-size: 4.25vw; }
-  .spinoff h2 {
+  .pelis h2 {
     font-size: 5vw; }
-  .spinoff img {
+  .pelis img {
     width: 80vw;
     height: 95vw; }
-  .spinoff__peli p {
+  .pelis__peli p {
     font-size: 4vw; }
   /* Series y Videojuegos */
-  .syv__li {
+  .syv__div {
     display: flex;
     flex-direction: column; }
-  .syv__li h5 {
+  .syv__div h5 {
     font-size: 5vw; }
-  .syv__li__img {
+  .syv__div__img {
     margin: 2%;
     width: 90vw;
     height: 60vw; }
